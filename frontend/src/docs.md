@@ -2,7 +2,7 @@
 
 ## Tailwindcss setup
 
-- Installed tailwindcss packages
+- Downloaded tailwindcss packages with npm
 
 - Configured the Vite plugin with tailwindcss
 
@@ -19,9 +19,23 @@
 
 - Imported Tailwind CSS
 
-  - created main css file that called main.css
+  - created main css file that called `main.css`
   - Added @import "tailwindcss" in main.css
 
 - Imported the main CSS file on main.jsx
 
 ### Tailwindcss setup complete.
+
+## Installed prettier-plugin for tailwindcss
+
+- Downloaded prettier-plugin-tailwindcss packages with npm.
+
+- Configured the prettierrc to use prettier-plugin
+  - Created prettierrc file that called `.prettierrc`
+  ```prettierrc
+    {
+     "plugins": ["prettier-plugin-tailwindcss"]
+    } 
+  ```
+
+### Prettier-plugin for tailwindcss setup complete
